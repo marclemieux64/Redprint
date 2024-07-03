@@ -2457,7 +2457,7 @@ button {
 		 onShow(instance) {
 // Define tooltip content for each button
         const tooltips = {
-			'cogeco-wifi-2-sim-fr-a':`<iframe src='https://www.appdemostore.com/embed?id=5731082609098752' width='383' height='780' frameborder='0'></iframe>`,
+			'cogeco-wifi-2-sim-fr-a':`<iframe src='//www.appdemostore.com/embed?id=5731082609098752' width='383' height='780' frameborder='0'></iframe>`,
 			/* 'cogeco-wifi-2-sim-en-a':``,
 			'cogeco-wifi-sim-fr-a':``,
 			'cogeco-wifi-sim-en-a':``,
