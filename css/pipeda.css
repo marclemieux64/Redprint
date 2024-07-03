@@ -1,0 +1,63 @@
+#pipeda1-container {
+    display: flex;
+}
+
+#pipeda1-container label {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+#pipeda2-container {
+    display: flex;
+}
+
+#pipeda2-container label {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+#updated-container {
+    display: flex;
+    margin-left: 10px; /* Adjust margin as needed */
+}
+
+#updated-container label {
+margin: 0px;
+}
+
+#updated-container select {
+    /* Adjust styling for select element as needed */
+    margin-left: 5px; /* Example margin for spacing */
+
+}
+#pipeda3-container {
+    display: flex;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+#pipeda3-container label {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+#failed-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-left: 10px; /* Adjust margin as needed */
+}
+
+#failed-container select {
+    margin-left: 5px; /* Adjust margin as needed */
+    margin-bottom: 5px;
+}
+
+#failed-container label {
+    margin-right: 0px; /* Adjust margin as needed */
+}  
+/* Style the radio buttons */
+#pipeda1-container input[type="radio"],
+#pipeda2-container input[type="radio"],
+#pipeda3-container input[type="radio"],
+#failed-container input[type="radio"] {
+    margin-right: 5px; /* Adjust margin as needed */
+    align-self: flex-start; /* Align radio button to the top */
+}
+
+

@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga", "kern";
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    
+    }
+    label, h2 , h1, input[type="radio"] , body {
+        cursor: default; /* Use default cursor */
+        outline: none; /* Remove focus outline */
+    }
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input[type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0px;
+        top: 4px;
+        left: -5px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    input[type="checkbox"]:checked {
+        background-color: #007bff;
+    }
+    
+    input[type="checkbox"]:checked::after {
+        content: "";
+        position: absolute;
+        left: 4px;
+        width: 6px;
+        height: 12px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+    #outage-code
+     {
+        width: 15ch;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0px;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    input[type="text"]
+     {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0px;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+    }
+    input[type="radio"] {
+        -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+        -moz-appearance: none; /* Remove default styling in Mozilla browsers */
+        appearance: none; /* Remove default styling */
+        width: 20px;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 50%; /* Use border-radius to create a circle */
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        bottom: 3px;
+    }
+    
+    input[type="radio"]:checked {
+        background-color: #007bff; /* Change background color when checked */
+    }
+    
+    input[type="radio"]:checked::after {
+        content: "";
+        position: absolute;
+        top: 4px; /* Adjust this value to center the dot vertically */
+        left: 4px; /* Adjust this value to center the dot horizontally */
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: white; /* Color of the dot */
+    
+    }
+    textarea
+     {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0px;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+    }
+    /* Base styles for the select dropdown */
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: auto;
+        height: 20px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        background-color: white;
+        position: relative;
+    }
+    
+    /* Custom arrow */
+    select::after {
+        content: '\25BC'; /* Unicode character for downward arrow */
+        position: absolute;
+        width: auto;
+        right: 10px;
+        top: 50%;
+        pointer-events: none;
+        color: #333;
+        font-size: 12px;
+    }
+    
+    /* Remove default arrow in IE */
+    select::-ms-expand {
+        display: none;
+    }
+    /* Base styles for the select dropdown */
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: auto;
+        height: 24px;
+        border: 2px solid #333;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        outline: none;
+        cursor: pointer;
+        background-color: white;
+        background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); /* Custom arrow icon */
+        background-repeat: no-repeat;
+    background-position:  right -3px center;
+        background-size: 25px; /* Increase size of the arrow */
+
+    }
+    
+    /* Remove default arrow in IE */
+    select::-ms-expand {
+        display: none;
+    }
+    button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: auto;
+        height: 24px;
+        border: 2px solid #333;
+        background-color: white;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+    }
+    h3 {
+        margin-bottom: -15px;
+        margin-top: 15px;
+    }

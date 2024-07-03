@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+ }
+
+ .container-a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Add some space between columns */
+}
+
+.column-a {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+h3 {
+    margin-bottom: 5px;
+} 
+
+#consult-section label {    
+    margin-right: 10px; /* Adjust margin as needed */
+    
+}
