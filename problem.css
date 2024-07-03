@@ -1,0 +1,35 @@
+#specific-problem {
+    width:98ch; /* Set width to 98 characters */
+    height: auto; /* Example height; adjust as needed */
+    resize: none;
+    margin-bottom: 5px;
+}
+    .container {
+        display: flex;
+        margin-top: -15px;
+    }
+
+    .column {
+        flex: 8; /* Optional: Make columns flexible to fill space */
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center; /* Align items vertically centered */
+        gap: 15px; /* Optional: Add some space between the label and select */
+    }
+    #legacy-error-code-label {    
+        width: 122px; /* Set width to 98 characters */
+    }
+.container button {
+    margin-right: 10px;
+    margin-left:-10px;
+    margin-bottom: 5px;
+    width: 24px;
+}
+#outage-code-info {
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
+    margin: 0px;
+}
